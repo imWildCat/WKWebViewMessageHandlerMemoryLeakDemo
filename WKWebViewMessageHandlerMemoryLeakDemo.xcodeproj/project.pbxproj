@@ -13,6 +13,7 @@
 		5E28F98627DA38FD003CC635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E28F98427DA38FD003CC635 /* Main.storyboard */; };
 		5E28F98827DA38FD003CC635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E28F98727DA38FD003CC635 /* Assets.xcassets */; };
 		5E28F98B27DA38FD003CC635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E28F98927DA38FD003CC635 /* LaunchScreen.storyboard */; };
+		5E28F99327DA3908003CC635 /* DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E28F99227DA3908003CC635 /* DemoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5E28F98727DA38FD003CC635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E28F98A27DA38FD003CC635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E28F98C27DA38FD003CC635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E28F99227DA3908003CC635 /* DemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5E28F98727DA38FD003CC635 /* Assets.xcassets */,
 				5E28F98927DA38FD003CC635 /* LaunchScreen.storyboard */,
 				5E28F98C27DA38FD003CC635 /* Info.plist */,
+				5E28F99227DA3908003CC635 /* DemoVC.swift */,
 			);
 			path = WKWebViewMessageHandlerMemoryLeakDemo;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E28F98327DA38FD003CC635 /* ViewController.swift in Sources */,
+				5E28F99327DA3908003CC635 /* DemoVC.swift in Sources */,
 				5E28F97F27DA38FD003CC635 /* AppDelegate.swift in Sources */,
 				5E28F98127DA38FD003CC635 /* SceneDelegate.swift in Sources */,
 			);
